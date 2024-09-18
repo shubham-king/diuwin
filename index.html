@@ -367,6 +367,90 @@
         </table>
     </div>
 
+     <center>
+     <h2 style="margin-top: 90px;">More Games</h2>
+     <hr class="dr">
+    </center>
+    
+    <div class="cards-container">
+        <!-- Card 1 -->
+        <a href="https://kwggame.vercel.app" class="card">
+            <div class="card-content">
+                <h3>KWG</h3>
+            </div>
+            <img src="https://kwggame.game/wp-content/uploads/2024/07/KWGGame.webp" alt="Recommendation Image 1">
+        </a>
+    
+        <!-- Card 2 -->
+        <a href="https://sikkimgame.vercel.app" class="card">
+            <div class="card-content">
+                <h3>Recom</h3>
+            </div>
+            <img src="https://sikkim15.com/wp-content/uploads/2024/07/sikkim-colour-game.webp" alt="Recommendation Image 2">
+        </a>
+    
+        <!-- Card 3 -->
+        <a href="#" class="card">
+            <div class="card-content">
+                <h3>DiuWin</h3>
+            </div>
+            <img src="https://diuwinn.org/wp-content/uploads/2024/09/Diu-Win.webp" alt="Recommendation Image 3">
+        </a>
+    </div>
+
+    <style>
+        .dr {
+            margin-top: 15px;
+            width: 80%;
+            border: 0;
+            height: 3px;
+            border-radius: 15px;
+            background-image: linear-gradient(to right, #00f2ff, #e52e71);
+        }
+        .cards-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Space between each card */
+            width: 100%;
+            max-width: 800px; /* Set a maximum width for the container */
+            padding: 20px;
+        }
+        .card {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 100px;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline from links */
+        }
+        .card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .card-content {
+            padding-left: 20px;
+            width: 60%;
+        }
+        .card-content h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+    </style>
+
     <!-- News Section -->
     <section class="news">
         <h2>Features</h2>
